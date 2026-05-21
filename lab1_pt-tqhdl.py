@@ -16,9 +16,8 @@ print(f"\nKích thước bộ dữ liệu: {df.shape}") # (số dòng, số cộ
 # Kiểm tra kiểu dữ liệu
 print("\nKiểu dữ liệu của từng cột:")
 print(df.dtypes)
-# Hàm describe() sẽ tính nhanh mean, min, max, std cho các cột số
 print("\nThống kê cơ bản cho các cột số:")
-print(df.describe())
+print(df.describe())   # describe(): tính nhanh mean, min, max, std cho các cột số
 # Thiết lập giao diện biểu đồ
 sns.set_theme(style="whitegrid")
 
@@ -62,4 +61,14 @@ axes[1].set_title('Boxplot Giá vé (Đã chuẩn hóa)')
 
 plt.tight_layout()
 plt.show()
+
+
+
+
+
+
+
+
+
+
 
